@@ -1,0 +1,118 @@
+#haut{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(77, 75, 75);
+}
+#logo:hover{
+    display: none;
+}
+img:hover{
+    transform: scale(1.3,1);
+}
+
+#gauche{
+    width: 15%;
+    height: 16.7%;
+    background-color: rgb(160, 159, 159);
+    position: absolute;
+    top: 1.2%;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    margin-top: -2%;
+}
+h1{
+    color: white;
+    cursor: pointer;
+}
+h1:hover{
+    color: black;
+
+}
+body{
+    background-color: rgb(228, 224, 224);
+}
+
+table{
+width: 100%;
+   height: 50%;
+   margin-top: -3%;
+}
+img{
+    width: 100%;
+    height: 80%;
+}
+#photo{
+    width: 150%;
+    height: 150%;
+    margin-top: -80%;
+margin-right: 3cm;
+}
+#sale{
+    background-color: red;
+    color: white;
+}
+#sale:hover{
+    background-color: yellow;
+    color: red;
+}
+h2{
+    cursor: pointer;
+
+}
+h2:hover{
+    color: rgb(216, 127, 141);
+    cursor: pointer;
+
+}
+span{
+    cursor: pointer;
+
+}
+span:hover{
+    color: rgb(216, 127, 141);
+}
+#sha{
+
+    cursor: pointer;
+    text-shadow: 2px 3px 2px black;
+    position: absolute;
+    top: 4%;
+    left: 43%;}
+#aa{
+    background-color: gray;
+}
+#aa:hover{
+    background-color: rgb(77, 75, 75);
+}
+p{
+    cursor: pointer;
+}
+@media screen and ( max-width:500px){
+    #sha{
+        display: none;
+    }
+}
+@media screen and ( max-width:1300px) and (min-width:300px){
+    .hbt{
+        display: none;
+    }
+    .rouge{
+        display: none;
+    }
+    .bas{
+        position: absolute;
+        top: 120%;
+    }
+    #gauche{
+        position: absolute;
+      top: 0.5%;
+    }
+}
